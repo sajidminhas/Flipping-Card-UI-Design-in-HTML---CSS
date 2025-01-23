@@ -67,7 +67,7 @@ section::after {
 .front-face header, 
 .front-face .logo {
     display: flex;
-    align-items: center;
+    
 }
 
 .front-face header {
@@ -85,13 +85,15 @@ h5 {
     font-weight: 400;
 }
 
-.front-face .chip {
+.card.front-face .chip {
     width: 50px;
+    margin-top: 10px;
+    margin-left: 80%;
 }
 
 .front-face .card-details {
     display: flex;
-    margin-top: 40px;
+    margin-top: 15px;
     align-items: flex-end;
     justify-content: space-between;
 }
